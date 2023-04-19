@@ -1,0 +1,19 @@
+<view class="musicIconCotainer">
+<musicController switch="{{isOn}}" bindchangeTo="controlMusicPlay"></musicController>
+</view>
+
+<swiper class="imgSwiper" bindchange="changeCurrent" current="{{current}}" duration="1800"  animation="{{animateSwiper}}">
+  <swiper-item class="imgSwiper-Item" wx:for="{{imgArr}}" >
+    <image class="imgSwiper-Item-image" src="{{item.mainImg}}" mode="aspectFit"></image>
+  </swiper-item>
+</swiper>
+
+<view class="titleContainer" animation="{{animateText}}">
+  <image class="titleContainer-image" src="{{imgArr[current].titleImg}}" mode="aspectFit"></image>
+</view>
+
+<text class="description" animation="{{animateText}}">{{imgArr[current].description}}</text>
+
+<view class="heartContainer" animation="{{animateText}}">
+  <image class="heartContainer-image" src="/static/img/heartFull.png" wx:for="{{heartNumArr}}"></image>
+</view>

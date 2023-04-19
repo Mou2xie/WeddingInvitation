@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/invitation/invitation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFB2B5",
+    "navigationBarTitleText": "小白和老谢的故事",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents":{
+    "musicController":"/utils/musicController/musicController"
+  }
+}

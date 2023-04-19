@@ -1,0 +1,65 @@
+.musicIconCotainer {
+  /* border: 2rpx solid black; */
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  z-index: 9999;
+}
+
+.imgSwiper {
+  /* border: 2rpx solid black; */
+  /* margin-top: 30rpx; */
+  width: 100%;
+  height: 700rpx;
+  opacity: 0;
+}
+
+.imgSwiper-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgSwiper-Item-image {
+  /* border: 2rpx solid black; */
+  height: 700rpx;
+}
+
+.titleContainer {
+  /* border: 2rpx solid black; */
+  width: 350rpx;
+  height: 120rpx;
+    opacity: 0;
+}
+
+.titleContainer-image {
+  /* border: 2rpx solid black; */
+  width: 100%;
+  height: 120rpx;
+}
+
+.description {
+  margin-top: 20rpx;
+  width: 80%;
+  color: white;
+  opacity: 0;
+}
+
+.heartContainer {
+  /* border: 2rpx solid black; */
+  position: absolute;
+  bottom: 50rpx;
+  width: 700rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.heartContainer-image{
+  /* border: 2rpx solid black; */
+  width: 100rpx;
+  height: 100rpx;
+}
